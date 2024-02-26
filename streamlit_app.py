@@ -15,7 +15,7 @@ from sklearn.metrics import classification_report
 def app():
     
     st.title('Emoji Recognizer💖⬇😖😁')
-    st.subheader('by Roan H. Jagunap | Computer Science Student from BSCS 3B - AI')
+    st.subheader('By: Roan H. Jagunap | Computer Science Student from BSCS 3B - AI')
     
     st.write('Dataset description:')
 
