@@ -14,7 +14,7 @@ from sklearn.metrics import classification_report
 # Define the Streamlit app
 def app():
     
-    st.title('Symbol Classification')
+    st.title('Emoji Recognizer')
     st.subheader('by Roan H. Jagunap | Computer Science Student from BSCS 3B - AI')
     
     st.write('Dataset description:')
@@ -25,11 +25,12 @@ def app():
         of the image (e.g., digit recognition, traffic sign classification).
         Potential Applications:"""
     st.write(text)
-    st.write('Digit recognition: Identifying handwritten digits from 0-9.')
-    st.write('Traffic sign classification: Classifying different types of traffic signs.')
-    st.write('Character recognition: Recognizing characters from different alphabets.')
+    st.write('Heart💖: Different types of heart emojis.')
+    st.write('Arrow ⬇: Different types of arrow signs.')
+    st.write('Nervous 😖: Different types of nervous emojis.')
+    st.write('Happy 😁: Different types of happy emojis.')
     st.write("""Simple image classification: Classifying simple images into categories 
-             like animal/non-animal, vehicle/non-vehicle, etc.""")
+             like animal/non-animal, vehicle/non-vehicle, and emojis etc.""")
 
     # display choice of classifier
     clf = BernoulliNB() 
