@@ -14,7 +14,7 @@ from sklearn.metrics import classification_report
 # Define the Streamlit app
 def app():
     
-    st.title('Emoji Recognizer')
+    st.title('Emoji Recognizer💖⬇😖')
     st.subheader('by Roan H. Jagunap | Computer Science Student from BSCS 3B - AI')
     
     st.write('Dataset description:')
